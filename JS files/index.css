@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #e1effc;
+  min-height: 100vh;
+}
+h1{
+  text-align: center;
+  font-size: 35px;
+  margin: 15px 0;
+}
+#new-book-btn, form button{
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-self: center;
+}
+#new-book-btn:hover{
+  background-color: rgb(93, 49, 134);
+}
+#new-book-btn:active{
+  background-color: rgb(130, 116, 143);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+form label, input{
+  display: block;
+  width: 100%;
+}
+label{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+input{
+  height: 2em;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding-left: 15px;
+  outline: none;
+}
+input[type=checkbox]{
+  margin-bottom: 15px;
+  height: 1.2em;
+}
+#myLibrary{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.book{
+  background-color: rgb(132, 171, 206);
+  border: 2px solid blue;
+  width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.book p{
+  margin-bottom: 10px;
+}
